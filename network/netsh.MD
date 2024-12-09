@@ -1,4 +1,4 @@
-cmd | action
+C | A
 -|-
 netsh WLAN show profiles | Profiles list
 netsh WLAN show drivers | Drivers

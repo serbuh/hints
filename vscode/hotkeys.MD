@@ -1,4 +1,4 @@
-cmd | action
+C | A
 -|-
 ctrl+shift+P | Command
 ctrl+R | Open recent workspaces
