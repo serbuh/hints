@@ -1,4 +1,4 @@
-C | A
+C|A
 -|-
 `~/.tmux.conf` | Tmux config file
 `tmux source-file ~/.tmux.conf` | Apply config
@@ -11,7 +11,7 @@ set -g base-index 1
 ```
  
 Add lines in file, or print that starting with `:` 
-C | A
+C|A
 -|-
 set -sg escape-time 0 | Disable "Esc" delay
 set -g mouse on | Enable mouse (for resizes, highlights)

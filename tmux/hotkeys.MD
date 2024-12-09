@@ -1,12 +1,12 @@
 
 Prefix P = `Ctrl + b` 
 
-C | A
+C|A
 -|-
 P + ? | List commands 
 
 ### Create / kill
-C | A
+C|A
 -|-
 :kill-session | - Session
 P + c | + window
@@ -17,7 +17,7 @@ P + x | - pane
 Ctrl + d | - pane
 
 ### Nav
-C | A
+C|A
 -|-
 P + <num> | goto window <num>
 P + <Arrow> | nav panes
@@ -29,13 +29,13 @@ P + w | List sessions, windows
 P + s | List sessions
 
 ### Rename
-C | A
+C|A
 -|-
 P + , | Rename window
 P + $ | Rename session
 
 ### Move
-C | A
+C|A
 -|-
 P + { | Move pane left
 P + } | Move pane right
