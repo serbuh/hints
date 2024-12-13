@@ -1,6 +1,10 @@
 # Config
 vscode global settings:
 `%APPDATA%\Code\User\settings.json`
+
+or  
+
+`Ctrl + Shift + P` -> `Open User Settings (JSON)` -> Add:
 ```
     "pylint.args": [
         "--disable=line-too-long",
@@ -10,6 +14,6 @@ vscode global settings:
         "--disable=missing-class-docstring",
         "--disable=trailing-whitespace",
         "--disable=missing-module-docstring",
-        "--init-hook=import os;os.chdir(\\\"/home/sergeybu/FW/fw_cvas\\\")"
+        "--init-hook=import os;os.chdir(\\\"/home/sergey/Workspace/my_proj\\\")"
     ],
 ```
