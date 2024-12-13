@@ -14,6 +14,7 @@ or
         "--disable=missing-class-docstring",
         "--disable=trailing-whitespace",
         "--disable=missing-module-docstring",
+        "--disable=broad-exception-raised",
         "--init-hook=import os;os.chdir(\\\"/home/sergey/Workspace/my_proj\\\")"
     ],
 ```
