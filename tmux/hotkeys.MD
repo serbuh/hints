@@ -27,6 +27,7 @@ P + f | find window
 P + q | List panes (numbers)
 P + w | List sessions, windows
 P + s | List sessions
+P + Space | Toggle panes layouts
 
 ### Rename
 C|A
