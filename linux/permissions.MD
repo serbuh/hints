@@ -4,6 +4,7 @@ C | A
 groups | Groups of current user
 groups \<user\> | Groups of the user
 cat /etc/group | Show all groups
+sudo groupadd \<group\> | Add a new group
 sudo adduser \<user\> dialout | Add \<user\> to dialout group (to access serial ports) (need to log out & log back to take effect)
 
 # Users
