@@ -20,3 +20,12 @@ Reboot if you still get an error:
 ```
 reboot
 ```
+
+### Apply certificates (.crt)
+C | A
+-|-
+sudo cp *.crt /usr/local/share/ca-certificates/ | Copy certificates
+sudo update-ca-certificates | Update certificates
+sudo systemctl daemon-reload | restart docker daemon
+sudo systemctl restart docker | restart docker service
+sudo docker login ... | login to docker server
