@@ -29,3 +29,10 @@ sudo update-ca-certificates | Update certificates
 sudo systemctl daemon-reload | restart docker daemon
 sudo systemctl restart docker | restart docker service
 sudo docker login ... | login to docker server
+
+
+### Add permission to the X server (graphics)
+Add permission:  
+`xhost +local:`
+Remove permission:  
+`xhost -local:`
