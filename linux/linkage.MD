@@ -5,7 +5,10 @@ ldd | Check dependencies
 ldd \| grep not | Check missing dependencies
 cat /etc/ld.so.conf | Conf file for folders for the linker to look in
 /etc/ld.so.conf.d | Folders for the linker to look in
-
+### Determine architecture of so
+```
+file <so_name>
+```
 ### ELF - Executable and Linkable Format 
 C | A
 -|-
