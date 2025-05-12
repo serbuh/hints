@@ -1,4 +1,9 @@
 ### Change submodule url
+TLDR
+```
+git config -f .gitmodules submodule.<path-to-submodule>.url <git-url>
+git -C <path-to-submodule> remote set-url origin <git-url>
+```
 
 1. Update URL in .gitmodules (used for clone/init)
 ```
