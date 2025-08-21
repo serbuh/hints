@@ -4,7 +4,7 @@ C | A
 -|-
 `git submodule update --remote` | Pull the latest commit in the submodule
 `git submodule update --init --recursive` | Initialize the submodule, checks out the correct commit
-
+`git submodule foreach --recursive 'git reset --hard'` | Run command in all submodules
 
 
 # Change submodule's url
