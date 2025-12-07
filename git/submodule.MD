@@ -39,3 +39,11 @@ git submodule update --init --recursive
 `git submodule sync`
 2) Initialize the submodule, checks out the correct commit, and uses the URL now listed in .gitmodules.  
 `git submodule update --init --recursive`
+
+
+## Submodule remove
+```
+git submodule deinit -f path_to_submodule
+git rm -f path_to_submodule
+rm -rf .git/modules/path_to_submodule
+```
