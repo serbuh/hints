@@ -8,3 +8,4 @@ C | A
 `git branch -D branch_name` | Delete local branch
 `git push origin :branch_name` | Delete remote branch (old style)
 `git push origin --delete branch_name` | Delete remote branch (new style)
+`git config --global core.autocrlf false` | Stop converting LF <-> CRLF automatically
